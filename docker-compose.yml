@@ -1,5 +1,5 @@
 services:
   backend:
     image: nginx
-    expose: 
-      - 80
+    ports: 
+      - 80:80
