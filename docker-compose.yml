@@ -1,6 +1,7 @@
 services:
   backend:
-    shipyard.route: '/'
+    labels:
+      shipyard.route: '/'
     image: httpd
     ports: 
       - 80:80
