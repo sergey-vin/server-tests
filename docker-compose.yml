@@ -1,0 +1,5 @@
+services:
+  backend:
+    image: nginx
+    expose: 
+      - 80
