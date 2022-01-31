@@ -1,5 +1,5 @@
 services:
   backend:
-    image: nginx
+    image: httpd
     ports: 
       - 80:80
